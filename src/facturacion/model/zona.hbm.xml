@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 5.3//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration">
+
+<hibernate-mapping>
+    <class name="facturacion.model.Zona" table="ZONA">
+        <id name="id">
+            <generator class="increment"></generator>
+        </id>
+        
+        <property name="nombre"></property>
+        <property name="descuento"> </property>
+        <property name="incremento"> </property>
+    </class>
+</hibernate-mapping>
+

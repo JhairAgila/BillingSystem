@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 5.3//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration">
+
+<hibernate-mapping>
+    <class name="facturacion.model.Producto" table="PRODUCTO">
+        <id name="id">
+            <generator class="increment"></generator>
+        </id>
+        
+        <property name="descripcion"></property>
+        <property name="precioUnitario"> </property>
+        <property name="stock"></property>
+<!--        <many-to-one name="cliente"
+            column="CLIENTE_ID"
+            not-null = "true"
+            insert = "false"
+            
+        />-->
+    </class>
+</hibernate-mapping>
+
+

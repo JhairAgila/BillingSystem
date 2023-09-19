@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 5.3//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration">
+
+
+<hibernate-mapping>
+    <class name="facturacion.model.Cliente" table="CLIENTE">
+        <id name="id">
+            <generator class="increment"></generator>
+        </id>
+        
+        <property name="nombre"></property>
+        <property name="identidad"> </property>
+        <property name="direccion"> </property>
+    </class>
+</hibernate-mapping>
+
